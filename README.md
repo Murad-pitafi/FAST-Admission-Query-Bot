@@ -1,4 +1,5 @@
 # FAST-Admission-Query-Bot
+A ChatBot
 a chat bot designed for FAST national university admission queries
 
 FAST ADMISSION QUERY CHATBOT ‘FASTLY’
