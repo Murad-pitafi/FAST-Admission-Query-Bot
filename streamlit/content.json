@@ -1,0 +1,125 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Admission",
+      "patterns": [
+        "when does fast offers admission?",
+        "when does fast starts admission?",
+        "What does admission open ?"
+      ],
+      "responses": [
+        "Fast offers Admission in june and july every year",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "criteria",
+      "patterns": [
+        "what is criteria for admission in fast?",
+        "what is criteria for admission?",
+        "what is criteria?",
+        " "
+      ],
+      "responses": [
+        "Criteria varies here for Engineering  60 in SSC and 60 in HSSC For Computing 60 in SSC and 50 in HSSC"
+
+      ]
+    },
+    {
+      "tag": "selection",
+      "patterns": [
+        "what is selection criteria?",
+        "on what basis my selection is eligible"
+      ],
+      "responses": [
+        "selection criteria for all program is : 50% of your HSSC or SSC and 50% of your NU test score "
+
+      ]
+    },
+    {
+      "tag": "test pattern",
+      "patterns": [
+        "what is test pattern ?",
+        "what is test pattern for nu test ?"
+      ],
+      "responses": [
+        "for Engineering and Computing English 10% , IQ 20% , Basic Math 20% , Advance Math 50% "
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Does Fast offers any Scholarship ?",
+	"are there any scholarships ?"
+      ],
+      "responses": [
+        "Yes it offers Scholarships as well as Loan assitance you can check it on nu.edu.pk/Admissions/Scholarship "
+      ]
+    },
+    {
+      "tag": "Program",
+      "patterns": [
+        "which Program does Fast offers ?",
+        "in which programs does fast offers admissions ?"
+      ],
+      "responses": [
+        "It offers these programs BS Computer Science , Artificial Intelligence, Software Engineering and Cyber Security"
+      ]
+    },
+   {
+  "tag": "Fee",
+  "patterns": [
+    "What is the fee structure?",
+    "How much do I have to pay?",
+    "Tell me about the fees",
+    "How much is the tuition fee?",
+    "What are the program fees?"
+  ],
+  "responses": [
+    "For all the programs, it is 8500 per credit hour."
+  ]
+}
+,
+    {
+      "tag": "Apply",
+      "patterns": [
+        "How to Apply for admission ?",
+        "how can I apply ?"
+      ],
+      "responses": [
+        "You can apply online on this website link admission.nu.edu.pk"
+      ]
+    }
+  ]
+}
